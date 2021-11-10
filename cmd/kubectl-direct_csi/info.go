@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	directcsi "github.com/minio/direct-csi/pkg/apis/direct.csi.min.io/v1beta3"
-	"github.com/minio/direct-csi/pkg/installer"
-	"github.com/minio/direct-csi/pkg/utils"
+	directcsi "github.com/ShayBenyo11/directcsi-minio/pkg/apis/direct.csi.min.io/v1beta3"
+	"github.com/ShayBenyo11/directcsi-minio/pkg/installer"
+	"github.com/ShayBenyo11/directcsi-minio/pkg/utils"
 
 	storagev1 "k8s.io/api/storage/v1"
 	storagev1beta1 "k8s.io/api/storage/v1beta1"
