@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"strings"
 
-	directcsi "github.com/minio/direct-csi/pkg/apis/direct.csi.min.io/v1beta3"
-	"github.com/minio/direct-csi/pkg/utils"
+	directcsi "github.com/ShayBenyo11/directcsi-minio/pkg/apis/direct.csi.min.io/v1beta3"
+	"github.com/ShayBenyo11/directcsi-minio/pkg/utils"
 
 	"github.com/spf13/cobra"
 	"k8s.io/klog/v2"
